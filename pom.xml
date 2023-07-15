@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.treeroot</groupId>
 	<artifactId>markdown-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>markdown-server</name>
 	<description>云笔记</description>
 	<properties>

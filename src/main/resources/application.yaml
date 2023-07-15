@@ -11,10 +11,7 @@ spring:
       # 默认文件上传限制给大一点，在代码中在控制一下
       max-file-size: 1GB
       max-request-size: 3GB
-file:
-#  markdown: /markdown/data/static/markdown/
-#  image: /markdown/data/static/image/
-#    markdown: /Users/xugenyin/file/markdown-cloud-notes-web/markdown-server/src/main/resources/static/
-  markdown: D:\xgy\code\private\markdown-cloud-notes-web\markdown-server\src\main\resources\static\markdown\
-  image: D:\xgy\code\private\markdown-cloud-notes-web\markdown-server\src\main\resources\static\image\
 
+file:
+  markdown: /docker/cloud-markdown/data/static/markdown/
+  image: /markdown/data/static/image/
