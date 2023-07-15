@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!--xml文件声明-->
+<!--mapper的头文件（固定格式）-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.treeroot.markdown.mapper.MarkdownMapper">
+
+</mapper>

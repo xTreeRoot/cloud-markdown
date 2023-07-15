@@ -1,0 +1,32 @@
+server:
+  port: 8991
+spring:
+  profiles:
+    active: dev
+  application:
+    name: markdown-server
+  servlet:
+    multipart:
+      enabled: true
+      # 默认文件上传限制给大一点，在代码中在控制一下
+      max-file-size: 1GB
+      max-request-size: 3GB
+#  #    mysql设置
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: XGY20hhsh
+#    url: jdbc:mysql://121.229.98.105:3306/markdown?serverTimezone=GMT%2B8
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  type-aliases-package: com.treeroot.markdown.entity
+#  mapper-locations: com.treeroot.markdown/mapper/*.xml
+#  logging:
+#    level:
+#      com.treeroot.markdown/mapper: debug
+file:
+#    markdown: /Users/xugenyin/file/markdown-cloud-notes-web/markdown-server/src/main/resources/static/
+  markdown: D:\xgy\code\private\markdown-cloud-notes-web\markdown-server\src\main\resources\static\markdown\
+  image: D:\xgy\code\private\markdown-cloud-notes-web\markdown-server\src\main\resources\static\image\
+
