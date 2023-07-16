@@ -65,9 +65,9 @@ COPY markdown-server-0.1.jar /docker/cloud-markdown/markdown-server-0.1.jar
 ENTRYPOINT ["java","-jar","/docker/cloud-markdown/markdown-server-0.1.jar","--spring.config.location=/docker/cloud-markdown/application.yaml"]
 ```
 
-打包`ERROR [internal] load metadata for docker.io/library/openjdk:11`先去执行`docker pull openjdk:11`
+打包如果报错`ERROR [internal] load metadata for docker.io/library/openjdk:11`先去执行`docker pull openjdk:11`
 
-如果报错
+
 
 ```shell
 docker build -t markdown-cloud:v1 .
